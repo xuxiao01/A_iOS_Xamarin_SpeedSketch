@@ -1,8 +1,19 @@
 ﻿<Properties StartupConfiguration="{B444174A-D715-45D0-B678-787665EFA7A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/Main.cs">
     <Files>
-      <File FileName="SpeedSketch/AppDelegate.cs" Line="25" Column="3" />
-      <File FileName="SpeedSketch/Main.cs" Line="16" Column="1" />
+      <File FileName="SpeedSketch/AppDelegate.cs" Line="4" Column="1" />
+      <File FileName="SpeedSketch/Main.cs" Line="12" Column="1" />
+      <File FileName="SpeedSketch/Entitlements.plist" />
+      <File FileName="SpeedSketch/Info.plist" />
+      <File FileName="SpeedSketch/DrawingEngine/CGContextExtensions.cs" Line="5" Column="41" />
+      <File FileName="SpeedSketch/DrawingEngine/CGDrawingEngine.cs" Line="151" Column="46" />
+      <File FileName="SpeedSketch/Controls/RingControl.cs" Line="50" Column="48" />
+      <File FileName="SpeedSketch/Controls/RingView.cs" Line="29" Column="44" />
+      <File FileName="SpeedSketch/Helpers/CGMathExtensions.cs" Line="1" Column="1" />
+      <File FileName="SpeedSketch/Helpers/CountableClosedRange.cs" Line="1" Column="1" />
+      <File FileName="SpeedSketch/Helpers/Helpers.cs" Line="1" Column="1" />
+      <File FileName="SpeedSketch/UI/CanvasContainerView.cs" Line="1" Column="1" />
+      <File FileName="SpeedSketch/UI/CanvasMainViewController.cs" Line="252" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

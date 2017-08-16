@@ -219,7 +219,7 @@ namespace SpeedSketch
 		void ClearButtonAction (object sender, EventArgs e)
 		{
 			cgView.StrokeCollection = strokeCollection = new StrokeCollection ();
-            Crashes.GenerateTestCrash();
+            //Crashes.GenerateTestCrash();
 		}
 
 		void StrokeUpdated (StrokeGestureRecognizer strokeGesture)

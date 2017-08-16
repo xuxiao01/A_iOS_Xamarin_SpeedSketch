@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{B444174A-D715-45D0-B678-787665EFA7A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/UI/CanvasMainViewController.cs">
     <Files>
       <File FileName="SpeedSketch/AppDelegate.cs" Line="4" Column="1" />
       <File FileName="SpeedSketch/Main.cs" Line="12" Column="1" />
@@ -12,8 +12,8 @@
       <File FileName="SpeedSketch/Helpers/CGMathExtensions.cs" Line="1" Column="1" />
       <File FileName="SpeedSketch/Helpers/CountableClosedRange.cs" Line="1" Column="1" />
       <File FileName="SpeedSketch/Helpers/Helpers.cs" Line="1" Column="1" />
-      <File FileName="SpeedSketch/UI/CanvasContainerView.cs" Line="1" Column="1" />
-      <File FileName="SpeedSketch/UI/CanvasMainViewController.cs" Line="252" Column="6" />
+      <File FileName="SpeedSketch/UI/CanvasContainerView.cs" Line="14" Column="9" />
+      <File FileName="SpeedSketch/UI/CanvasMainViewController.cs" Line="225" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />

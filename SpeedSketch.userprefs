@@ -1,26 +1,15 @@
 ﻿<Properties StartupConfiguration="{B444174A-D715-45D0-B678-787665EFA7A3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/AppDelegate.cs">
     <Files>
-      <File FileName="SpeedSketch/AppDelegate.cs" Line="4" Column="1" />
-      <File FileName="SpeedSketch/Main.cs" Line="12" Column="1" />
-      <File FileName="SpeedSketch/Entitlements.plist" />
-      <File FileName="SpeedSketch/Info.plist" />
-      <File FileName="SpeedSketch/DrawingEngine/CGContextExtensions.cs" Line="5" Column="41" />
-      <File FileName="SpeedSketch/DrawingEngine/CGDrawingEngine.cs" Line="151" Column="46" />
-      <File FileName="SpeedSketch/Controls/RingControl.cs" Line="50" Column="48" />
-      <File FileName="SpeedSketch/Controls/RingView.cs" Line="29" Column="44" />
-      <File FileName="SpeedSketch/Helpers/CGMathExtensions.cs" Line="1" Column="1" />
-      <File FileName="SpeedSketch/Helpers/CountableClosedRange.cs" Line="1" Column="1" />
-      <File FileName="SpeedSketch/Helpers/Helpers.cs" Line="1" Column="1" />
-      <File FileName="SpeedSketch/UI/CanvasContainerView.cs" Line="1" Column="1" />
-      <File FileName="SpeedSketch/UI/CanvasMainViewController.cs" Line="252" Column="6" />
+      <File FileName="SpeedSketch/Main.cs" Line="16" Column="1" />
+      <File FileName="SpeedSketch/AppDelegate.cs" Line="21" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SpeedSketch PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4F8CD145-D042-4263-A648-A8F73E601BE7" />
+  <MonoDevelop.Ide.ItemProperties.SpeedSketch PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.e49f26e43dc44793e09f8e4b38192a7790c5f3ea" />
   <MultiItemStartupConfigurations />
 </Properties>

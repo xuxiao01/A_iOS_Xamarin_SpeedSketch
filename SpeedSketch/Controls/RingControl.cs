@@ -8,6 +8,8 @@ using CoreGraphics;
 using static SpeedSketch.RingControlState;
 using static CoreGraphics.CGAffineTransform;
 
+using Microsoft.Azure.Mobile.Analytics;
+
 namespace SpeedSketch
 {
 	public class RingControl : UIView
@@ -41,11 +43,13 @@ namespace SpeedSketch
 			Func<RingView, Action> selectedGenerator = (view) => () => {
 				view.Layer.BorderColor = borderColorSelected;
 				view.BackgroundColor = fillColorSelected;
+                Analytics.TrackEvent("selected Generator");
 			};
 
 			Func<RingView, Action> normalGenerator = (view) => () => {
 				view.Layer.BorderColor = borderColorNormal;
 				view.BackgroundColor = fillColorNormal;
+                Analytics.TrackEvent("normal Generator");
 			};
 
 			CGPoint startPosition = Bounds.GetCenter ();

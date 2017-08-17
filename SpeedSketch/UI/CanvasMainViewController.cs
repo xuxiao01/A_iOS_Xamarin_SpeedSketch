@@ -10,6 +10,9 @@ using static UIKit.UIViewAutoresizing;
 using static UIKit.UIGestureRecognizerState;
 using static SpeedSketch.Helpers;
 
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
+
 namespace SpeedSketch
 {
 	public class CanvasMainViewController : UIViewController, IUIScrollViewDelegate, IUIGestureRecognizerDelegate
@@ -119,7 +122,8 @@ namespace SpeedSketch
 				Delegate = this,
 				CancelsTouchesInView = false,
 				IsForPencil = false,
-				CoordinateSpaceView = cgView
+				CoordinateSpaceView = cgView,
+
 			};
 			scrollView.AddGestureRecognizer (fingerStrokeRecognizer);
 
@@ -215,6 +219,7 @@ namespace SpeedSketch
 		void ClearButtonAction (object sender, EventArgs e)
 		{
 			cgView.StrokeCollection = strokeCollection = new StrokeCollection ();
+            Crashes.GenerateTestCrash();
 		}
 
 		void StrokeUpdated (StrokeGestureRecognizer strokeGesture)

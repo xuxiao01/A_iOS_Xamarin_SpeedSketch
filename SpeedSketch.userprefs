@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B444174A-D715-45D0-B678-787665EFA7A3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpeedSketch/AppDelegate.cs">
+    <Files>
+      <File FileName="SpeedSketch/Main.cs" Line="16" Column="1" />
+      <File FileName="SpeedSketch/AppDelegate.cs" Line="21" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SpeedSketch PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.e49f26e43dc44793e09f8e4b38192a7790c5f3ea" />
+  <MultiItemStartupConfigurations />
+</Properties>

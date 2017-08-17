@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using CoreGraphics;
 using UIKit;
+using Microsoft.Azure.Mobile.Analytics;
 
 using static SpeedSketch.CGMathExtensions;
 
@@ -136,7 +137,7 @@ namespace SpeedSketch
 				var dirtyRect = DirtyRectForSampleStride (previousPredictedSamples);
 				result.Add (dirtyRect);
 			}
-
+            Analytics.TrackEvent("Dirty Rect");
 			return result;
 		}
 

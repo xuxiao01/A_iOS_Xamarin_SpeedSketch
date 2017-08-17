@@ -54,7 +54,14 @@ namespace SpeedSketch
 			localWindow.RootViewController = new CanvasMainViewController ();
 			localWindow.MakeKeyAndVisible ();
 			Window = localWindow;
-			return true;
+
+            // Newer version of Visual Studio for Mac and Visual Studio provide the
+            // ENABLE_TEST_CLOUD compiler directive in the Debug configuration,
+            // but not the Release configuration.
+#if ENABLE_TEST_CLOUD
+            Xamarin.Calabash.Start();
+#endif
+            return true;
 		}
 	}
 }

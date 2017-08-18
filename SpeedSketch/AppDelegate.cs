@@ -48,7 +48,7 @@ namespace SpeedSketch
 			System.Diagnostics.Debug.WriteLine("installId value:" + installId.Result.ToString());
 
 			MobileCenter.Start("9d6d8829-627c-4ceb-815e-90ba99958eb8",
-				   typeof(Analytics), typeof(Crashes));
+				   typeof(Analytics), typeof(Crashes),typeof(Push);
 			// Minimal basic setup without a storyboard.
 			var localWindow = new UIWindow (UIScreen.MainScreen.Bounds);
 			localWindow.RootViewController = new CanvasMainViewController ();

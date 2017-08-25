@@ -934,7 +934,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 36,40,96,236,200,236,105,162,226,148,151,8,193,21,51,34
+	.byte 84,197,238,45,217,234,184,248,124,225,182,125,248,142,23,155
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Analytics_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Analytics_info:

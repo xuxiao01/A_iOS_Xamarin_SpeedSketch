@@ -18102,7 +18102,7 @@ _mono_aot_file_info:
 	.long 256,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 246,105,47,5,174,178,53,187,31,220,128,164,149,177,125,221
+	.byte 205,69,91,28,148,233,239,66,43,191,227,173,10,155,245,154
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Crashes_iOS_Bindings_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Crashes_iOS_Bindings_info:

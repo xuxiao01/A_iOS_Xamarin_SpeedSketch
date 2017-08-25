@@ -171,7 +171,7 @@ namespace SpeedSketch
             //生成CustomID
             var installId = MobileCenter.GetInstallIdAsync();
             System.Diagnostics.Debug.WriteLine("installId value:" + installId.Result.ToString());
-
+            Distribute.DontCheckForUpdatesInDebug();
             MobileCenter.Start("9d6d8829-627c-4ceb-815e-90ba99958eb8",
                                typeof(Analytics), typeof(Crashes), typeof(Push),typeof(Distribute));
             // Minimal basic setup without a storyboard.
@@ -179,8 +179,11 @@ namespace SpeedSketch
             localWindow.RootViewController = new CanvasMainViewController();
             localWindow.MakeKeyAndVisible();
             Window = localWindow;
+#if ENABLE_TEST_CLOUD
+			Xamarin.Calabash.Start();
+#endif
 
-            return true;
+			return true;
         }
         bool OnReleaseAvailable(ReleaseDetails releaseDetails)
         {

@@ -3298,7 +3298,7 @@ _mono_aot_file_info:
 	.long 80,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 169,134,169,179,176,255,3,2,145,234,61,116,226,3,7,190
+	.byte 97,27,249,162,56,140,123,218,149,52,138,49,93,87,62,67
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Distribute_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Distribute_info:

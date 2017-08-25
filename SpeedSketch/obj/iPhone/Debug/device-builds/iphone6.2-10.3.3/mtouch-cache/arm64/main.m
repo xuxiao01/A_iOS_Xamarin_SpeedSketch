@@ -15,6 +15,7 @@ extern void *mono_aot_module_Microsoft_Azure_Mobile_Push_info;
 extern void *mono_aot_module_Microsoft_Azure_Mobile_Push_iOS_Bindings_info;
 extern void *mono_aot_module_Microsoft_Azure_Mobile_Analytics_info;
 extern void *mono_aot_module_Microsoft_Azure_Mobile_Analytics_iOS_Bindings_info;
+extern void *mono_aot_module_Calabash_info;
 
 void xamarin_register_modules_impl ()
 {
@@ -33,6 +34,7 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_Microsoft_Azure_Mobile_Push_iOS_Bindings_info);
 	mono_aot_register_module (mono_aot_module_Microsoft_Azure_Mobile_Analytics_info);
 	mono_aot_register_module (mono_aot_module_Microsoft_Azure_Mobile_Analytics_iOS_Bindings_info);
+	mono_aot_register_module (mono_aot_module_Calabash_info);
 
 }
 

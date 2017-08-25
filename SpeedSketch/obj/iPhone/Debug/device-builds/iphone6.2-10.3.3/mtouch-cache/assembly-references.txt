@@ -15,3 +15,4 @@
 /Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/packages/Microsoft.Azure.Mobile.Push.0.14.2/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Push.iOS.Bindings.dll
 /Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/packages/Microsoft.Azure.Mobile.Analytics.0.14.2/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.dll
 /Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/packages/Microsoft.Azure.Mobile.Analytics.0.14.2/lib/Xamarin.iOS10/Microsoft.Azure.Mobile.Analytics.iOS.Bindings.dll
+/Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/packages/Xamarin.TestCloud.Agent.0.20.7/lib/Xamarin.iOS10/Calabash.dll

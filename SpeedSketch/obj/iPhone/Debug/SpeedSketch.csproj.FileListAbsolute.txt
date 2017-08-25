@@ -40,3 +40,4 @@ D:/MobileCenter/TestProject/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhone/Deb
 /Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhone/Debug/SpeedSketch.csproj.CoreCompileInputs.cache
 /Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhone/Debug/SpeedSketch.exe
 /Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhone/Debug/SpeedSketch.pdb
+/Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/SpeedSketch/obj/iPhone/Debug/SpeedSketch.csprojResolveAssemblyReference.cache

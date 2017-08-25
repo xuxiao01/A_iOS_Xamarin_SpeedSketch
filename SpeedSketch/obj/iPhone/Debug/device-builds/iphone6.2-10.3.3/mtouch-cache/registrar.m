@@ -3151,79 +3151,79 @@ exception_handling:;
 	-(void) scrollViewDidEndDecelerating:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7A704);
+		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7AC04);
 	}
 
 	-(void) scrollViewWillBeginDecelerating:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7A804);
+		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7AD04);
 	}
 
 	-(void) scrollViewDidZoom:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7A904);
+		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7AE04);
 	}
 
 	-(void) scrollViewDidEndDragging:(UIScrollView *)p0 willDecelerate:(BOOL)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_36 (self, _cmd, &managed_method, p0, p1, 0x7AA04);
+		native_to_managed_trampoline_36 (self, _cmd, &managed_method, p0, p1, 0x7AF04);
 	}
 
 	-(void) scrollViewWillBeginDragging:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7AB04);
+		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7B004);
 	}
 
 	-(void) scrollViewDidEndScrollingAnimation:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7AC04);
+		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7B104);
 	}
 
 	-(void) scrollViewDidScroll:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7AD04);
+		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7B204);
 	}
 
 	-(void) scrollViewDidScrollToTop:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7AE04);
+		native_to_managed_trampoline_35 (self, _cmd, &managed_method, p0, 0x7B304);
 	}
 
 	-(BOOL) scrollViewShouldScrollToTop:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_37 (self, _cmd, &managed_method, p0, 0x7AF04);
+		return native_to_managed_trampoline_37 (self, _cmd, &managed_method, p0, 0x7B404);
 	}
 
 	-(UIView *) viewForZoomingInScrollView:(UIScrollView *)p0
 	{
 		static MonoMethod *managed_method = NULL;
-		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, p0, 0x7B004);
+		return native_to_managed_trampoline_19 (self, _cmd, &managed_method, p0, 0x7B504);
 	}
 
 	-(void) scrollViewWillEndDragging:(UIScrollView *)p0 withVelocity:(CGPoint)p1 targetContentOffset:(CGPoint*)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_38 (self, _cmd, &managed_method, p0, p1, p2, 0x7B104);
+		native_to_managed_trampoline_38 (self, _cmd, &managed_method, p0, p1, p2, 0x7B604);
 	}
 
 	-(void) scrollViewDidEndZooming:(UIScrollView *)p0 withView:(UIView *)p1 atScale:(CGFloat)p2
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, p1, p2, 0x7B204);
+		native_to_managed_trampoline_20 (self, _cmd, &managed_method, p0, p1, p2, 0x7B704);
 	}
 
 	-(void) scrollViewWillBeginZooming:(UIScrollView *)p0 withView:(UIView *)p1
 	{
 		static MonoMethod *managed_method = NULL;
-		native_to_managed_trampoline_39 (self, _cmd, &managed_method, p0, p1, 0x7B304);
+		native_to_managed_trampoline_39 (self, _cmd, &managed_method, p0, p1, 0x7B804);
 	}
 
 	-(BOOL) conformsToProtocol:(void *)p0
@@ -3488,7 +3488,7 @@ exception_handling:;
 
 	static MTClassMap __xamarin_class_map [] = {
 		{ NULL, 0x9204 /* 'NSObject' => 'Foundation.NSObject, Xamarin.iOS' */ },
-		{ NULL, 0x10104 /* 'UIResponder' => 'UIKit.UIResponder, Xamarin.iOS' */ },
+		{ NULL, 0x10304 /* 'UIResponder' => 'UIKit.UIResponder, Xamarin.iOS' */ },
 		{ NULL, 0x504 /* 'UIView' => 'UIKit.UIView, Xamarin.iOS' */ },
 		{ NULL, 0xA504 /* 'UIGestureRecognizer' => 'UIKit.UIGestureRecognizer, Xamarin.iOS' */ },
 		{ NULL, 0x704 /* 'UIViewController' => 'UIKit.UIViewController, Xamarin.iOS' */ },
@@ -3528,14 +3528,14 @@ exception_handling:;
 		{ NULL, 0xC704 /* 'UIKit_UIControlEventProxy' => 'UIKit.UIControlEventProxy, Xamarin.iOS' */ },
 		{ NULL, 0xC804 /* 'CKShareMetadata' => 'CloudKit.CKShareMetadata, Xamarin.iOS' */ },
 		{ NULL, 0xD404 /* 'UIScreen' => 'UIKit.UIScreen, Xamarin.iOS' */ },
-		{ NULL, 0xE704 /* 'UIPress' => 'UIKit.UIPress, Xamarin.iOS' */ },
-		{ NULL, 0xF804 /* 'NSEnumerator' => 'Foundation.NSEnumerator, Xamarin.iOS' */ },
-		{ NULL, 0xF904 /* 'NSException' => 'Foundation.NSException, Xamarin.iOS' */ },
-		{ NULL, 0x10F04 /* 'NSNotification' => 'Foundation.NSNotification, Xamarin.iOS' */ },
-		{ NULL, 0x11004 /* 'NSNull' => 'Foundation.NSNull, Xamarin.iOS' */ },
-		{ NULL, 0x11604 /* 'UITouch' => 'UIKit.UITouch, Xamarin.iOS' */ },
-		{ NULL, 0x11C04 /* 'UIUserNotificationSettings' => 'UIKit.UIUserNotificationSettings, Xamarin.iOS' */ },
-		{ NULL, 0x12A04 /* 'UIApplicationShortcutItem' => 'UIKit.UIApplicationShortcutItem, Xamarin.iOS' */ },
+		{ NULL, 0xE904 /* 'UIPress' => 'UIKit.UIPress, Xamarin.iOS' */ },
+		{ NULL, 0xFA04 /* 'NSEnumerator' => 'Foundation.NSEnumerator, Xamarin.iOS' */ },
+		{ NULL, 0xFB04 /* 'NSException' => 'Foundation.NSException, Xamarin.iOS' */ },
+		{ NULL, 0x11104 /* 'NSNotification' => 'Foundation.NSNotification, Xamarin.iOS' */ },
+		{ NULL, 0x11204 /* 'NSNull' => 'Foundation.NSNull, Xamarin.iOS' */ },
+		{ NULL, 0x11804 /* 'UITouch' => 'UIKit.UITouch, Xamarin.iOS' */ },
+		{ NULL, 0x11E04 /* 'UIUserNotificationSettings' => 'UIKit.UIUserNotificationSettings, Xamarin.iOS' */ },
+		{ NULL, 0x12C04 /* 'UIApplicationShortcutItem' => 'UIKit.UIApplicationShortcutItem, Xamarin.iOS' */ },
 		{ NULL, 0x3504 /* 'NSData' => 'Foundation.NSData, Xamarin.iOS' */ },
 		{ NULL, 0x4004 /* 'NSDictionary' => 'Foundation.NSDictionary, Xamarin.iOS' */ },
 		{ NULL, 0x6C04 /* 'NSNotificationCenter' => 'Foundation.NSNotificationCenter, Xamarin.iOS' */ },
@@ -3549,7 +3549,7 @@ exception_handling:;
 		{ NULL, 0xCD04 /* 'UIPinchGestureRecognizer' => 'UIKit.UIPinchGestureRecognizer, Xamarin.iOS' */ },
 		{ NULL, 0xCF04 /* 'UISwipeGestureRecognizer' => 'UIKit.UISwipeGestureRecognizer, Xamarin.iOS' */ },
 		{ NULL, 0xD104 /* 'UIScreenEdgePanGestureRecognizer' => 'UIKit.UIScreenEdgePanGestureRecognizer, Xamarin.iOS' */ },
-		{ NULL, 0x10204 /* 'UIScrollView' => 'UIKit.UIScrollView, Xamarin.iOS' */ },
+		{ NULL, 0x10404 /* 'UIScrollView' => 'UIKit.UIScrollView, Xamarin.iOS' */ },
 		{ NULL, 0x1100 /* 'SpeedSketch_CanvasContainerView' => 'SpeedSketch.CanvasContainerView, SpeedSketch' */ },
 		{ NULL, 0x300 /* 'AppDelegate' => 'SpeedSketch.AppDelegate, SpeedSketch' */ },
 		{ NULL, 0x400 /* 'SpeedSketch_RingControl' => 'SpeedSketch.RingControl, SpeedSketch' */ },
@@ -3571,7 +3571,7 @@ exception_handling:;
 		{ NULL, 0xCE04 /* '__UIPinchGestureRecognizer' => 'UIKit.UIPinchGestureRecognizer+Callback, Xamarin.iOS' */ },
 		{ NULL, 0xD004 /* '__UISwipeGestureRecognizer' => 'UIKit.UISwipeGestureRecognizer+Callback, Xamarin.iOS' */ },
 		{ NULL, 0xD204 /* '__UIScreenEdgePanGestureRecognizer' => 'UIKit.UIScreenEdgePanGestureRecognizer+Callback, Xamarin.iOS' */ },
-		{ NULL, 0x10304 /* 'UIKit_UIScrollView__UIScrollViewDelegate' => 'UIKit.UIScrollView+_UIScrollViewDelegate, Xamarin.iOS' */ },
+		{ NULL, 0x10504 /* 'UIKit_UIScrollView__UIScrollViewDelegate' => 'UIKit.UIScrollView+_UIScrollViewDelegate, Xamarin.iOS' */ },
 		{ NULL, 0x30A /* 'Microsoft_Azure_Mobile_Distribute_Distribute_Delegate' => 'Microsoft.Azure.Mobile.Distribute.Distribute+Delegate, Microsoft.Azure.Mobile.Distribute' */ },
 		{ NULL, 0x30C /* 'MSDistribute' => 'Microsoft.Azure.Mobile.Distribute.iOS.Bindings.MSDistribute, Microsoft.Azure.Mobile.Distribute.iOS.Bindings' */ },
 		{ NULL, 0x70C /* 'MSReleaseDetails' => 'Microsoft.Azure.Mobile.Distribute.iOS.Bindings.MSReleaseDetails, Microsoft.Azure.Mobile.Distribute.iOS.Bindings' */ },
@@ -3617,7 +3617,8 @@ exception_handling:;
 		"Microsoft.Azure.Mobile.Push", 
 		"Microsoft.Azure.Mobile.Push.iOS.Bindings", 
 		"Microsoft.Azure.Mobile.Analytics", 
-		"Microsoft.Azure.Mobile.Analytics.iOS.Bindings"
+		"Microsoft.Azure.Mobile.Analytics.iOS.Bindings", 
+		"Calabash"
 	};
 
 	static struct MTFullTokenReference __xamarin_token_references [] = {
@@ -3627,7 +3628,7 @@ exception_handling:;
 		__xamarin_registration_assemblies,
 		__xamarin_class_map,
 		__xamarin_token_references,
-		15,
+		16,
 		112,
 		49,
 		0

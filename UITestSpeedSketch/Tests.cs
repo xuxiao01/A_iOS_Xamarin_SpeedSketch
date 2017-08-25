@@ -38,8 +38,8 @@ namespace iOSUITest
         {
             app.Screenshot("First screen.");
             app.Screenshot("Draw a dog");
-            app.WaitForElement("Clear");
-            app.Screenshot("Cleared screen");
+            //app.WaitForElement("Clear");
+            //app.Screenshot("Cleared screen");
 
         }
     }

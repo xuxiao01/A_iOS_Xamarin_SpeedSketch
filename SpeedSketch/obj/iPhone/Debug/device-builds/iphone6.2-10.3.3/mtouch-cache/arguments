@@ -6,7 +6,6 @@
 	/Users/bys/Documents/chmin/ios-xamarin/A_iOS_Xamarin_SpeedSketch/SpeedSketch/bin/iPhone/Debug/device-builds/iphone6.2-10.3.3/SpeedSketch.app \
 	--executable \
 	SpeedSketch \
-	--fastdev \
 	--debug \
 	--linksdkonly \
 	--sdkroot \

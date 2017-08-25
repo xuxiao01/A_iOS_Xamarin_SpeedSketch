@@ -4529,7 +4529,7 @@ _mono_aot_file_info:
 	.long 88,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 41,1,158,223,41,142,161,213,187,41,56,186,32,44,175,247
+	.byte 129,20,130,72,193,72,187,143,32,213,3,158,158,118,90,243
 	.globl _mono_aot_module_Microsoft_Azure_Mobile_Push_iOS_Bindings_info
 	.align 3
 _mono_aot_module_Microsoft_Azure_Mobile_Push_iOS_Bindings_info:
